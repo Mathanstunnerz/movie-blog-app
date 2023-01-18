@@ -1,0 +1,473 @@
+.nav-bar{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(83, 0, 160);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search-button{
+  outline: none;
+  border: none;
+  background-color: rgb(149, 42, 248);
+  height: inherit;
+}
+.search-button:hover{
+  color: white;
+  box-shadow: 0.3px 0.3px 20px;
+ 
+}
+.input{
+  outline: none;
+background-color: rgb(255, 255, 255,0.6);
+
+height: inherit;
+}
+.search-nav{
+  display: inline-block;
+
+  height: 30px;
+}
+.logo-img{
+  width: 60px;
+
+
+}
+a{
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  font-size: 20px;
+}
+.theme-item{
+  width: 50%;
+}
+
+  .content-body{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  
+ 
+  }
+
+.card-header{
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  
+  width: 30%;
+  height:500px;
+  
+   
+}
+
+.card-img{
+ display: flex;
+ flex-direction: column;
+align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(83, 0, 160);
+}
+.img{
+  display: inline;
+  width: 100%;
+  height: 90%;
+}
+.card-header:hover{
+  position: relative;
+  top: -1rem;
+  color: rgb(0, 255, 255);
+  box-shadow: 0.2px 0.2px 30px;
+  width: 33%;
+  z-index: 1000;
+  height: fit-content;
+  transition: .4s;
+}
+.card-header:hover .summary{
+  display: inline-block;
+  
+  color: rgb(255, 255, 255);
+  background-color: rgb(83, 0, 160);
+  transition: .4s;
+}
+.rating{
+  display: inline-block;
+  font-size: 30px;
+}
+.rating-align{
+  display: flex;
+  align-items: center;
+  color: rgb(177, 177, 177);
+}
+.card-header:hover .rating-align{
+  color: rgb(255, 208, 0);
+}
+.summary{
+  display: none;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+.end-bar{
+
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(83, 0, 160);
+}
+
+@media screen and (max-width:912px) {
+  .end-bar{
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 40px;
+     width:100% ;
+     background-color: rgb(83, 0, 160);
+     font-size: 10px;
+   }
+  .card-header{
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    
+    width:45%;
+    
+    
+    
+     
+  }
+  .logo-img{
+    width: 10%
+  
+  
+  }
+  .nav-bar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(83, 0, 160);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card-header:hover{
+    position: relative;
+    top: -1rem;
+    color: rgb(0, 255, 255);
+    box-shadow: 0.2px 0.2px 30px;
+    width: 47%;
+    z-index: 1000;
+    height: fit-content;
+    transition: .4s;
+  }
+  .rating-align{
+    display: flex;
+    align-items: center;
+    color: rgb(177, 177, 177);
+  }
+  .rating{
+    display: inline-block;
+    font-size: 100%;
+  }
+  a:hover{
+    font-size: 8px;
+  }
+  .card-header:hover .summary{
+    display: inline-block;
+    font-size: 80%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 0, 160);
+    transition: .4s;
+  }
+  .card-header:hover .summary h2{
+    display: inline-block;
+    font-size: 80%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 0, 160);
+    transition: .4s;
+  }
+  .content-body{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  
+ 
+  }
+  .search-nav{
+ 
+    display: flex;
+ width: 30%;
+ 
+  }
+  .theme-item{
+    width: 30%;
+  }
+  a{
+    display: inline-block;
+    position: relative;
+    padding: 4%;
+    text-decoration: none;
+    color: white;
+    font-size: 60%;
+  }
+  .input{
+    outline: none;
+  background-color: rgb(255, 255, 255,0.6);
+  width:70%;
+  height: 80%;
+  font-size: 50%;
+  }
+  .search-button{
+    outline: none;
+    border: none;
+    background-color: rgb(149, 42, 248);
+    height: inherit;
+    width: 30%;
+    height: 80%;
+    font-size: 60%;
+  }
+}
+@media screen and (max-width:375px){
+  .end-bar{
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 40px;
+     width:100% ;
+     background-color: rgb(83, 0, 160);
+     font-size: 10px;
+   }
+  .card-header{
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    
+    width: 90%;
+    
+    
+     
+  }
+  .logo-img{
+    width: 10%
+  
+  
+  }
+  .nav-bar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(83, 0, 160);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card-header:hover{
+    position: relative;
+    top: -1rem;
+    color: rgb(0, 255, 255);
+    box-shadow: 0.2px 0.2px 30px;
+    width: 90%;
+    z-index: 1000;
+    height: fit-content;
+    transition: .4s;
+  }
+  .rating-align{
+    display: flex;
+    align-items: center;
+    color: rgb(177, 177, 177);
+  }
+  .rating{
+    display: inline-block;
+    font-size: 100%;
+  }
+  a:hover{
+    font-size: 8px;
+  }
+  .card-header:hover .summary{
+    display: inline-block;
+    font-size: 6px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 0, 160);
+    transition: .4s;
+  }
+  .card-header:hover .summary h2{
+    display: inline-block;
+    font-size: 6px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 0, 160);
+    transition: .4s;
+  }
+  .content-body{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  
+ 
+  }
+  .search-nav{
+ 
+    display: flex;
+ width: 30%;
+ 
+  }
+  .theme-item{
+    width: 30%;
+  }
+  a{
+    display: inline-block;
+    position: relative;
+    padding: 4%;
+    text-decoration: none;
+    color: white;
+    font-size: 60%;
+  }
+  .input{
+    outline: none;
+  background-color: rgb(255, 255, 255,0.6);
+  width:70%;
+  height: 80%;
+  font-size: 30%;
+  }
+  .search-button{
+    outline: none;
+    border: none;
+    background-color: rgb(149, 42, 248);
+  
+    width: 30%;
+    height: 80%;
+    font-size: 60%;
+  }
+}
+@media screen and (max-width:414px) {
+  .end-bar{
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 40px;
+     width:100% ;
+     background-color: rgb(83, 0, 160);
+     font-size: 10px;
+   }
+  .card-header{
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    
+    width: 90%;
+    
+    
+     
+  }
+  .logo-img{
+    width: 10%
+  
+  
+  }
+  .nav-bar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(83, 0, 160);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card-header:hover{
+    position: relative;
+    top: -1rem;
+    color: rgb(0, 255, 255);
+    box-shadow: 0.2px 0.2px 30px;
+    width: 90%;
+    z-index: 1000;
+    height: fit-content;
+    transition: .4s;
+  }
+  .rating-align{
+    display: flex;
+    align-items: center;
+    color: rgb(177, 177, 177);
+  }
+  .rating{
+    display: inline-block;
+    font-size: 100%;
+  }
+  a:hover{
+    font-size: 8px;
+  }
+  .card-header:hover .summary{
+    display: inline-block;
+    font-size: 6px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 0, 160);
+    transition: .4s;
+  }
+  .card-header:hover .summary h2{
+    display: inline-block;
+    font-size: 6px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 0, 160);
+    transition: .4s;
+  }
+  .content-body{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  
+ 
+  }
+  .search-nav{
+ 
+    display: flex;
+ width: 30%;
+ 
+  }
+  .theme-item{
+    width: 30%;
+  }
+  a{
+    display: inline-block;
+    position: relative;
+    padding: 4%;
+    text-decoration: none;
+    color: white;
+    font-size: 60%;
+  }
+  .input{
+    outline: none;
+  background-color: rgb(255, 255, 255,0.6);
+  width:70%;
+  height: 80%;
+  font-size: 50%;
+  }
+  .search-button{
+    outline: none;
+    border: none;
+    background-color: rgb(149, 42, 248);
+    height: inherit;
+    width: 30%;
+    height: 80%;
+    font-size: 60%;
+  }
+}
