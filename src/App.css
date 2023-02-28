@@ -48,7 +48,8 @@ a:hover {
   display: inline-block;
   position: relative;
   width: 250px;
-  height: 400px;
+  height: fit-content;
+  overflow: hidden;
 }
 
 .card-img {
@@ -108,12 +109,13 @@ a:hover {
   color: rgb(255, 208, 0);
 }
 .summary {
-  display: none;
+  display: inline-block;
   position: relative;
   padding: 10px;
   text-align: center;
   align-items: center;
   width: 100%;
+  height: fit-content;
 }
 .container__ {
   padding-top: 20px;
@@ -124,5 +126,5 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   justify-items: center;
-  align-items: center;
+  align-items: start;
 }
